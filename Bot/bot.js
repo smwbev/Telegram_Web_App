@@ -3,7 +3,7 @@ const TOKEN = "5476521185:AAG1Q2YudVbI_EC04XHSqPME6uvmq8hwdGY";
 const bot = new Telegraf(TOKEN);
 
 //const web_link = "https://celebrated-torte-184681.netlify.app/";
-const web_link = "https://telegram-web-app-pi.vercel.app/";
+const web_link = "https://telegram-web-k3rb3mjyk-tehnoconductor.vercel.app/";
 
 bot.start((ctx) =>
   ctx.reply("Привет. Хочешь классных водоблоков? :))))) Нажми кнопочку внизу", {
