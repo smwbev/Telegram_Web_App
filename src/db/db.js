@@ -1,19 +1,19 @@
-import pizzaImg from "../images/pizza.png";
-import burgerImg from "../images/burger.png";
-import cocaImg from "../images/coca.png";
-import saladImg from "../images/salad.png";
-import waterImg from "../images/water.png";
-import iceCreamImg from "../images/icecream.png";
-import kebabImg from "../images/kebab.png";
+import pizzaImg from "../images/s19.png";
+import burgerImg from "../images/s19.png";
+import cocaImg from "../images/s19.png";
+import saladImg from "../images/s19.png";
+import waterImg from "../images/s19.png";
+import iceCreamImg from "../images/s19.png";
+import kebabImg from "../images/s19.png";
 
 export function getData() {
   return [
-    { title: "Pizza", price: 17.99, Image: pizzaImg,id:1 },
-    { title: "Burger", price: 15, Image: burgerImg,id:2 },
-    { title: "Coca", price: 3.5, Image: cocaImg ,id:3},
-    { title: "Kebab", price: 13.99, Image: kebabImg,id:4 },
-    { title: "Salad", price: 2.5, Image: saladImg,id:5 },
-    { title: "Bottle of water", price: 0.99, Image: waterImg,id:6 },
-    { title: "Ice cream", price: 2.99, Image: iceCreamImg,id:7 },
+    { title: "ы19о зкщ", price: 40500.11, Image: pizzaImg,id:1 },
+    { title: "ы19о зкщ", price: 40500.22, Image: burgerImg,id:2 },
+    { title: "ы19о зкщ", price: 40500.33, Image: cocaImg ,id:3},
+    { title: "ы19о зкщ", price: 40500.44, Image: kebabImg,id:4 },
+    { title: "ы19о зкщ", price: 40500.55, Image: saladImg,id:5 },
+    { title: "ы19о зкщ", price: 40500.66, Image: waterImg,id:6 },
+    { title: "Д7 9050", price: 40500.77, Image: iceCreamImg,id:7 },
   ];
 }
