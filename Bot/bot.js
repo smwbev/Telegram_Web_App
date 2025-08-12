@@ -1,5 +1,6 @@
+require("dotenv").config();
 const { Telegraf } = require("telegraf");
-const TOKEN = "5476521185:AAG1Q2YudVbI_EC04XHSqPME6uvmq8hwdGY";
+const TOKEN = process.env.TELEGRAM_TOKEN;
 const bot = new Telegraf(TOKEN);
 
 const web_link = "https://b2b.moysklad.ru/public/EmKrZ93r2kJM/";
